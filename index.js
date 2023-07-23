@@ -5,10 +5,11 @@ require('ejs');
 require('dotenv').config();
 const config = process.env;
 const app = express();
+const dbConn = require('./app/config/mongodb-connect');
 
 
 app.set('view engine', 'ejs');
-// app.set('views','./app/view'); 
+app.set('views','./app/views'); 
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
