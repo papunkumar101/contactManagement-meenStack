@@ -5,16 +5,13 @@ require('ejs');
 require('dotenv').config();
 const config = process.env;
 const app = express();
+// const routes = require('./app/route/general');
 const dbConn = require('./app/config/mongodb-connect');
+dbConn.connect();
 
-
-app.set('view engine', 'ejs');
-app.set('views','./app/views'); 
-
-app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => { 
-  res.render('home'); // it is automatically search the form.ejs file inside ./views/
+   res.render('home'); // it is automatically search the form.ejs file inside ./views/
 });
 
 app.get('/contact',(req,res)=>{
@@ -36,6 +33,13 @@ app.post('/submit',(req,res)=>{
     res.render('confirmation',{name,email});
     // console.log(req);
 });
+
+app.set('view engine', 'ejs');
+app.set('views','./app/views'); 
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+
 
 app.listen(config.PORT,()=>{
     console.log('server runing on port '+config.PORT);
