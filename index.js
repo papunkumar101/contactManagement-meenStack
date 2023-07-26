@@ -16,6 +16,11 @@ app.listen(config.PORT,()=>{
     console.log('server runing on port '+config.PORT);
 });
 
+
+// app.use(express.static(__dirname + '/public/'));
+// console.log(__dirname + '/public');
+
+
 app.get('/', (req, res) => { 
    res.render('home'); // it is automatically search the form.ejs file inside ./views/
 });

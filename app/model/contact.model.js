@@ -12,8 +12,8 @@ const contactSchema = mongo.Schema(
             required: [true, "Please add the contact email address"],
           },
           phone: {
-            type: String,
-            required: [true, "Please add the contact phone number"],
+            type: Number,
+            // required: [true, "Please add the contact phone number"],
           },
         },
         {
@@ -21,4 +21,4 @@ const contactSchema = mongo.Schema(
         } 
 );
 
-module.exports = mongoose.model('Luckyi',contactSchema);
+module.exports = mongoose.model('Contact',contactSchema); // here Contact will create your db with contacts
