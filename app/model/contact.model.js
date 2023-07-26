@@ -21,4 +21,4 @@ const contactSchema = mongo.Schema(
         } 
 );
 
-module.exports = mongoose.model('Contact',contactSchema);
+module.exports = mongoose.model('Luckyi',contactSchema);
