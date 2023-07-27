@@ -16,8 +16,7 @@ const createContact = asyncHandler(async (req, res) => {
         });
         // const contact = await dbConn.collection("contact").insertOne({ name, email, phone });
       
-       // res.status(201).json({message:"cntact saved!!"});
-       console.log(contact);
+       // res.status(201).json({message:"cntact saved!!"}); 
        res.status(201).render('confirmation',{contact:contact});
   });
 
