@@ -1,4 +1,5 @@
 const { createContact } = require('../controller/contact.controller'); 
+const { createUser } = require('../controller/register.controller');
 
 
 const express = require('express');
@@ -8,9 +9,7 @@ router.get('/', (req, res) => {
     res.render('home'); // it is automatically search the form.ejs file inside ./views/
  });
  
- router.get('/contact',(req,res)=>{
-     res.render('contact');
- });
+
  
  router.get('/login',(req,res)=>{
      res.render('login');
@@ -20,7 +19,13 @@ router.get('/', (req, res) => {
      res.render('register');
  });
  
- router.post('/submit',createContact);
+ router.post('/register',createUser);
+
+ router.get('/contact',(req,res)=>{
+    res.render('contact');
+});
+
+ router.post('/contact',createContact);
  // router.post('/submit',(req,res)=>{
  //     let name = req.body.name;
  //     let email = req.body.email;
