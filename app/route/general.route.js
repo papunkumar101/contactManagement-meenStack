@@ -1,5 +1,6 @@
 const { createContact } = require('../controller/contact.controller'); 
 const { createUser } = require('../controller/register.controller');
+const {loginUser} = require('../controller/login.controller');
 
 
 const express = require('express');
@@ -10,16 +11,15 @@ router.get('/', (req, res) => {
  });
  
 
- 
+ router.post('/login',loginUser);
  router.get('/login',(req,res)=>{
      res.render('login');
  });
  
+ router.post('/register',createUser);
  router.get('/register',(req,res)=>{
      res.render('register');
  });
- 
- router.post('/register',createUser);
 
  router.get('/contact',(req,res)=>{
     res.render('contact');
