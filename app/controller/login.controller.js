@@ -8,12 +8,11 @@ const loginUser = async(req, res) =>{
         // res.status(400);
         res.send("All fields are mandatory!");
       }
-    const user = await Users.findOne({email});
-    console.log(user);
-    if (user) {
-        try { 
-          const isPasswordValid = await bcrypt.compare(password, user.password);
-          if (isPasswordValid) { 
+    const user = await Users.findOne({email}); 
+    if (user) { 
+      try {  
+          const isPasswordValid = await bcrypt.compare(password, user.password); 
+          if (isPasswordValid) {  
             req.session.user = user;
             res.redirect('/dashboard');
           } else {
@@ -28,4 +27,9 @@ const loginUser = async(req, res) =>{
     }
 }
 
-module.exports = {loginUser};
+const userLogout = (req, res) => {
+  req.session.destroy();
+  res.redirect('/login');
+}
+
+module.exports = { loginUser, userLogout };

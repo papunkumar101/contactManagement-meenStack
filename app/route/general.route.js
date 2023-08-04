@@ -1,6 +1,8 @@
 const { createContact } = require('../controller/contact.controller'); 
 const { createUser } = require('../controller/register.controller');
-const {loginUser} = require('../controller/login.controller');
+const { loginUser, userLogout } = require('../controller/login.controller');
+const {userDasboard} = require('../controller/dasboard.controller');
+const { publicRoute,privateRoute } = require('../middleware/auth.middleware');
 
 
 const express = require('express');
@@ -12,12 +14,12 @@ router.get('/', (req, res) => {
  
 
  router.post('/login',loginUser);
- router.get('/login',(req,res)=>{
+ router.get('/login', publicRoute, (req,res)=>{
      res.render('login');
  });
  
  router.post('/register',createUser);
- router.get('/register',(req,res)=>{
+ router.get('/register', publicRoute, (req,res)=>{
      res.render('register');
  });
 
@@ -33,6 +35,9 @@ router.get('/', (req, res) => {
  //     res.render('confirmation',{name,email});
  //     // console.log(req);
  // });
+
+ router.get('/dashboard',privateRoute,userDasboard);
+ router.get('/logout',privateRoute,userLogout);
 
 
  module.exports = router;
