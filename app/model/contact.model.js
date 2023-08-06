@@ -13,7 +13,7 @@ const contactSchema = mongo.Schema(
           },
           phone: {
             type: Number,
-            // required: [true, "Please add the contact phone number"],
+            required: [true, "Please add the contact phone number"],
           },
         },
         {

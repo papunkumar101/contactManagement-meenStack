@@ -1,4 +1,4 @@
-const { createContact } = require('../controller/contact.controller'); 
+const { createContact, getAllContacts, getContactById, getContactByName, addContact } = require('../controller/contact.controller'); 
 const { createUser } = require('../controller/register.controller');
 const { loginUser, userLogout } = require('../controller/login.controller');
 const {userDasboard} = require('../controller/dasboard.controller');
@@ -7,6 +7,7 @@ const { publicRoute,privateRoute } = require('../middleware/auth.middleware');
 
 const express = require('express');
 const router = express.Router();
+const apiRoutes = express.Router();
 
 router.get('/', (req, res) => { 
     res.render('home'); // it is automatically search the form.ejs file inside ./views/
@@ -40,7 +41,15 @@ router.get('/', (req, res) => {
  router.get('/logout',privateRoute,userLogout);
 
 
- module.exports = router;
+
+
+//  API ROUTES START 
+apiRoutes.get('/contacts', getAllContacts);
+apiRoutes.get('/contact-find-by-id/:id', getContactById);
+apiRoutes.get('/contact-find-by-name/:name', getContactByName);
+apiRoutes.post('/contact-add', addContact);
+
+ module.exports = { router, apiRoutes };
 
 
  
