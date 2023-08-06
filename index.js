@@ -7,7 +7,7 @@ require('ejs');
 require('dotenv').config();
 const config = process.env;
 const app = express();
-const routes = require('./app/route/general.route');
+const { router, apiRoutes } = require('./app/route/general.route');
 const dbConn = require('./app/config/mongodb-connect');
 dbConn.connect(); 
 
@@ -19,9 +19,7 @@ app.listen(config.PORT,()=>{
 });
 
 
-app.use(express.static(__dirname + '/public'));
-// app.use('/', express.static(path.join(__dirname, 'views')))
-// console.log(__dirname + '/public');
+app.use(express.static(__dirname + '/public')); 
 app.use(session({
     secret: 'keyboard cat',
     resave: false,
@@ -33,7 +31,8 @@ app.use(session({
 app.set('view engine', 'ejs');
 app.set('views','./app/views'); 
 
-app.use(routes);
+app.use(router);
+app.use('/api/v1',apiRoutes);
 
 
  
