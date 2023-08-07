@@ -32,14 +32,12 @@ const createContact = asyncHandler(async (req, res) => {
   }
 
   const getContactById = async(req, res) => {
-    let id = req.params.id; 
+    let id = req.params.id;  
     try {
-       let getContact = await abc.find({"_id":id.toString()});
-      //  let getContact = await abc.findById(id);
-       console.log(getContact);
-       res.json(getContact); 
+       let getContact = await abc.findOne({"_id":id}); 
+       res.status(200).json(getContact); 
      } catch (error) {
-        res.json(error);
+        res.status(404).json(error);
      }
   } 
 
@@ -56,21 +54,18 @@ const createContact = asyncHandler(async (req, res) => {
 
 
   const addContact = async(req, res) => {
-    // const {name, email, phone} = req.body;
-     res.status(201).json('req');
-     console.log(req.body);
-  
-    // if (!name && !email && !phone) {
-    //   let res = await abc.create({
-    //     name,
-    //     email,
-    //     phone
-    //   });
-    //   res.json(res);
-    // }else{
-    //   res.status(400);
-    //   throw new Error("All fields are mandatory !");
-    // }
+    const {name, email, phone} = req.body;
+    console.log(name, email, phone);
+    if (!name || !email || !phone) {
+      let res = await abc.create({
+        name,
+        email,
+        phone
+      });
+      res.status(201).json(res);  
+    }else{ 
+      res.status(400).json({'message':'All fields are mandatory!'});
+    }
   }
 
   module.exports = { createContact, getAllContacts, getContactById, getContactByName, addContact };
