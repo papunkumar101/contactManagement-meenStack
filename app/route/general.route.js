@@ -1,4 +1,4 @@
-const { createContact, getAllContacts, getContactById, getContactByName, addContact } = require('../controller/contact.controller'); 
+const { createContact, getAllContacts, getContactById, getContactByName, addContact,updateContact } = require('../controller/contact.controller'); 
 const { createUser } = require('../controller/register.controller');
 const { loginUser, userLogout } = require('../controller/login.controller');
 const {userDasboard} = require('../controller/dasboard.controller');
@@ -48,6 +48,7 @@ apiRoutes.get('/contacts', getAllContacts);
 apiRoutes.get('/contact-find-by-id/:id', getContactById);
 apiRoutes.get('/contact-find-by-name/:name', getContactByName);
 apiRoutes.post('/contact-add', addContact);
+apiRoutes.patch('/contact-update/:id', updateContact);
 
  module.exports = { router, apiRoutes };
 
