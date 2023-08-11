@@ -12,12 +12,13 @@
             "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
         }
     },
-    "schemes": ["http"],
+    "schemes": ["http","https"],
     "host": "localhost:1010",
     "basePath": "/api/v1",
     "paths" : {
         "/contacts" : {
             "get" : {
+                "tags": ["Contact management"],
                 "summary" : "Get all the contacts",
                 "description": "Get all the contacts - contact management",
                 "produces": ["application/json"],
@@ -43,12 +44,13 @@
         },
         "/contact-find-by-id/{id}" : {
             "get" : {
+                "tags": ["Contact management"],
                 "summary" : "Search contact by id",
                 "description": "Search contact by id - contact management",
                 "produces": ["application/json"],
                 "parameters": [
                     {
-                        "id": "id",
+                        "name": "id",
                         "in": "path",
                         "description": "search id here",
                         "required": true,
@@ -76,6 +78,7 @@
         },
         "/contact-find-by-name/{name}" : {
             "get" : {
+                "tags": ["Contact management"],
                 "summary" : "Search contact by name",
                 "description": "Search contact by name - contact management",
                 "produces": ["application/json"],
@@ -109,6 +112,7 @@
         },
         "/contact-add" : {
             "post" : {
+                "tags": ["Contact management"],
                 "summary" : "Save the contact",
                 "description": "Save the contact",
                 "produces": ["application/json"],
@@ -119,13 +123,9 @@
                         "name": "body",
                         "description": "Contact object",
                         "required": true,
-                        "schema": {
-                            
-                               
-                                    "type": "object",
-                                    "$ref": "#/definitions/addContact"
-                               
-                            
+                        "schema": {  
+                                "type": "object",
+                                "$ref": "#/definitions/addContact"
                         }
                     }
                 ],
@@ -148,8 +148,53 @@
                 }
             }
         },
+        "/contact-update/{id}" : {
+            "patch" : {
+                "tags": ["Contact management"],
+                "summary" : "Update the contact",
+                "description": "Update the contact",
+                "produces": ["application/json"],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "contact id is required to update",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "contact object",
+                        "required": true,
+                        "schema": { 
+                                "type": "object",
+                                "$ref": "#/definitions/addContact" 
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/todosResponse"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value",
+                        "schema": {
+                            "$ref": "#/definitions/InvalidResponse"
+                        }
+                    }
+                }
+            }
+        },
         "/todos/{id}" : {
             "put" : {
+                "tags": ["Todo"],
                 "summary" : "Update the tasks",
                 "description": "Update the tasks",
                 "produces": ["application/json"],
@@ -198,6 +243,7 @@
         },
         "/todo/{id}" : {
             "delete" : {
+                "tags": ["Todo"],
                 "summary" : "Delete the task",
                 "description": "Delete the task",
                 "produces": ["application/json"],

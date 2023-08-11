@@ -9,6 +9,7 @@ const contactSchema = mongo.Schema(
           },
           email: {
             type: String,
+            unique : true,
             required: [true, "Please add the contact email address"],
           },
           phone: {
