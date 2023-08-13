@@ -179,7 +179,7 @@
                         "schema": {
                             "type": "array",
                             "items": {
-                                "$ref": "#/definitions/todosResponse"
+                                "$ref": "#/definitions/contactsResponse"
                             }
                         }
                     },
@@ -192,33 +192,56 @@
                 }
             }
         },
-        "/todos/{id}" : {
-            "put" : {
-                "tags": ["Todo"],
-                "summary" : "Update the tasks",
-                "description": "Update the tasks",
+        "/contact-delete/{id}" : {
+            "delete" : {
+                "tags": ["Contact management"],
+                "summary" : "Delete the contact",
+                "description": "Delete the contact",
                 "produces": ["application/json"],
                 "parameters": [
                     {
                         "name": "id",
                         "in": "path",
-                        "description": "task id that needs to be deleted",
+                        "description": "delete contact by id",
                         "required": true,
                         "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/contactsResponse"
+                            }
+                        }
                     },
+                    "400": {
+                        "description": "Invalid status value",
+                        "schema": {
+                            "$ref": "#/definitions/InvalidResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "/login" : {
+            "post" : {
+                "tags": ["User Auth"],
+                "summary" : "create token to access the APIs",
+                "description": "get token",
+                "produces": ["application/json"],
+                "consumes": ["application/json"],
+                "parameters": [
                     {
                         "in": "body",
                         "name": "body",
-                        "description": "task object",
+                        "description": "Login object",
                         "required": true,
-                        "schema": {
-                            "type": "object",
-                            "properties": {
-                                "task" : {
-                                    "type": "object",
-                                    "$ref": "#/definitions/Task"
-                                } 
-                            }
+                        "schema": {  
+                                "type": "object",
+                                "$ref": "#/definitions/getToken"
                         }
                     }
                 ],
@@ -228,41 +251,7 @@
                         "schema": {
                             "type": "array",
                             "items": {
-                                "$ref": "#/definitions/todosResponse"
-                            }
-                        }
-                    },
-                    "400": {
-                        "description": "Invalid status value",
-                        "schema": {
-                            "$ref": "#/definitions/InvalidResponse"
-                        }
-                    }
-                }
-            }
-        },
-        "/todo/{id}" : {
-            "delete" : {
-                "tags": ["Todo"],
-                "summary" : "Delete the task",
-                "description": "Delete the task",
-                "produces": ["application/json"],
-                "parameters": [
-                    {
-                        "name": "id",
-                        "in": "path",
-                        "description": "task id that needs to be deleted",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "responses": {
-                    "200": {
-                        "description": "successful operation",
-                        "schema": {
-                            "type": "array",
-                            "items": {
-                                "$ref": "#/definitions/todosResponse"
+                                "$ref": "#/definitions/getTokenRes"
                             }
                         }
                     },
@@ -316,21 +305,7 @@
                     "type": "string"
                 }
             }
-        },
-        "Task": {
-            "type": "object",
-            "properties": {
-                "task": {
-                    "type": "string"
-                },
-                "assignee": {
-                    "type": "string"
-                },
-                "status": {
-                    "type": "string"
-                }
-            }
-        },
+        }, 
         "addContact": {
             "type": "object",
             "properties": { 
@@ -346,6 +321,30 @@
                     "type": "integer",
                     "example": "9876543210"
                 }
+            }
+        },
+        "getToken": {
+            "type": "object",
+            "properties": {  
+                "email": {
+                    "type": "string",
+                    "example": "test@gmail.com"
+                },
+                "password": {
+                    "type": "string",
+                    "example": "Test@12345"
+                }
+            }
+        },
+        "getTokenRes": {
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "integer"
+                },
+                "token": {
+                    "type": "string"
+                } 
             }
         },
         "InvalidResponse": {

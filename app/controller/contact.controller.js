@@ -72,6 +72,11 @@ const createContact = asyncHandler(async (req, res) => {
     }    
   }
 
+  //findByIdAndUpdate
+  //findAndUpdate
+  //findById
+  //findOne
+  //findOneAndRemove
   const updateContact = async(req, res) => {
        let id = req.params.id;
        let updateData = req.body; 
@@ -80,17 +85,21 @@ const createContact = asyncHandler(async (req, res) => {
         if(resData.length == 0){
           return res.status(400).json({'message': 'can not find user!'});
         }
-        const updateRes = await abc.findByIdAndUpdate({"_id":id}, {$set: updateData},{returnDocument:'after'});
+        const updateRes = await abc.findByIdAndUpdate({"_id" : id}, {$set: updateData},{returnDocument:'after'});
         return res.status(200).json(updateRes);
       } catch (error) {
         return res.status(400).json(error.message);
       }
   }
-  //findByIdAndUpdate
-  //findAndUpdate
-  //findById
-  //findOne
-  //findOneAndRemove
-  
+ 
+  const deleteContact = async(req, res) => {
+   let id =  req.params.id;
+   try {
+     const delRes = await abc.findByIdAndRemove({'_id' : id}); //options : remove, findOneAndRemove, deleteOne, deleteMany
+     return res.status(200).json(delRes);
+   } catch (error) {
+     return res.status(400).json(error.message);
+   }
+  }
 
-  module.exports = { createContact, getAllContacts, getContactById, getContactByName, addContact, updateContact };
+  module.exports = { createContact, getAllContacts, getContactById, getContactByName, addContact, updateContact, deleteContact };

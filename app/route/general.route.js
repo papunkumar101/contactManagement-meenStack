@@ -1,8 +1,8 @@
-const { createContact, getAllContacts, getContactById, getContactByName, addContact,updateContact } = require('../controller/contact.controller'); 
+const { createContact, getAllContacts, getContactById, getContactByName, addContact, updateContact, deleteContact } = require('../controller/contact.controller'); 
 const { createUser } = require('../controller/register.controller');
-const { loginUser, userLogout } = require('../controller/login.controller');
+const { loginUser, userLogout, getAuthentication } = require('../controller/login.controller');
 const {userDasboard} = require('../controller/dasboard.controller');
-const { publicRoute,privateRoute } = require('../middleware/auth.middleware');
+const { publicRoute, privateRoute, verifyDataForGenerateToken, verifyToken } = require('../middleware/auth.middleware');
 
 
 const express = require('express');
@@ -44,11 +44,14 @@ router.get('/', (req, res) => {
 
 
 //  API ROUTES START 
-apiRoutes.get('/contacts', getAllContacts);
+apiRoutes.post('/login',verifyDataForGenerateToken, getAuthentication);
+
+apiRoutes.get('/contacts', verifyToken, getAllContacts);
 apiRoutes.get('/contact-find-by-id/:id', getContactById);
 apiRoutes.get('/contact-find-by-name/:name', getContactByName);
 apiRoutes.post('/contact-add', addContact);
 apiRoutes.patch('/contact-update/:id', updateContact);
+apiRoutes.delete('/contact-delete/:id', deleteContact);
 
  module.exports = { router, apiRoutes };
 
