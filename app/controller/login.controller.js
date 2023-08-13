@@ -1,30 +1,54 @@
 
+// const { model } = require('mongoose');
 const Users = require('../model/register.model');
 const bcrypt = require('bcrypt');
+const helper =  require('../helper/general.helper');
+
+
+
+async function checkUser(email, password, returnData = ''){
+   try{ 
+    const user = await Users.findOne({email}); 
+    if (user) { 
+      const isPasswordValid = await bcrypt.compare(password, user.password); 
+      if (isPasswordValid) {  
+        if(returnData == 'ALL') return user; 
+         return true;
+      }  
+    } 
+    return false;
+   }catch(error){
+     return error.message;
+   }
+}
 
 const loginUser = async(req, res) =>{ 
     const { email, password } = req.body;
-    if (!email || !password) {
-        // res.status(400);
-        res.send("All fields are mandatory!");
+    const userData = await checkUser(email, password, 'ALL')
+    if(userData){
+      req.session.user = userData;
+      return res.redirect('/dashboard');
+    }else{
+      return res.status(400).send('Invalid username or password');
+    } 
+}
+
+
+// api get token 
+const getAuthentication = async(req, res) => {
+   const {email, password} = req.body;
+   const userData = await checkUser(email, password, 'ALL');   
+   try{
+     if(userData){ 
+        let {_id, name, email} = userData;
+        const token = await helper.tokenGenerate({_id, name, email});
+        return res.status(200).json({'token':token});
+      }else{
+        return res.status(400).json({'message' : 'Invalid username or password'});
       }
-    const user = await Users.findOne({email}); 
-    if (user) { 
-      try {  
-          const isPasswordValid = await bcrypt.compare(password, user.password); 
-          if (isPasswordValid) {  
-            req.session.user = user;
-            res.redirect('/dashboard');
-          } else {
-            res.send('Invalid username or password');
-          }
-        } catch (err) {
-          console.error('Error comparing passwords:', err);
-          res.status(500).send('Error comparing passwords');
-        }
-    } else {
-     res.send('Invalid username or password');
-    }
+   }catch(error){
+    return res.status(400).json(error.message);
+   }
 }
 
 const userLogout = (req, res) => {
@@ -32,4 +56,4 @@ const userLogout = (req, res) => {
   res.redirect('/login');
 }
 
-module.exports = { loginUser, userLogout };
+module.exports = { loginUser, userLogout, getAuthentication };
