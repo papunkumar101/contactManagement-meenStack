@@ -1,2 +1,2 @@
 # contactManagement-meenStack
-A mini blog using  mongo, express, ejs and node
+The Contact Management website using  mongo, express, ejs and node
