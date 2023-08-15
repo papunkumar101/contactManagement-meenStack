@@ -1,7 +1,7 @@
 const { createContact, getAllContacts, getContactById, getContactByName, addContact, updateContact, deleteContact } = require('../controller/contact.controller'); 
 const { createUser } = require('../controller/register.controller');
 const { loginUser, userLogout, getAuthentication } = require('../controller/login.controller');
-const {userDasboard} = require('../controller/dasboard.controller');
+const {userDasboard,test} = require('../controller/dasboard.controller');
 const { publicRoute, privateRoute, verifyDataForGenerateToken, verifyToken } = require('../middleware/auth.middleware');
 
 
@@ -39,6 +39,7 @@ router.get('/', (req, res) => {
 
  router.get('/dashboard',privateRoute,userDasboard);
  router.get('/logout',privateRoute,userLogout);
+ router.get('/test',test);
 
 
 
