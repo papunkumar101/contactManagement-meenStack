@@ -3,6 +3,7 @@
 const Users = require('../model/register.model');
 const bcrypt = require('bcrypt');
 const helper =  require('../helper/general.helper');
+const {signUpValidation, signInValidation} =  require('../helper/validation.helper');
 
 
 
@@ -23,22 +24,28 @@ async function checkUser(email, password, returnData = ''){
 }
 
 const loginUser = async(req, res) =>{ 
-    const { email, password } = req.body;
-    const userData = await checkUser(email, password, 'ALL')
+  try {  
+    const value = await signInValidation.validateAsync(req.body);
+    const { email, password } = value;
+    const userData = await checkUser(email, password, 'ALL');
     if(userData){
       req.session.user = userData;
       return res.redirect('/dashboard');
     }else{
       return res.status(400).send('Invalid username or password');
     } 
+  } catch (error) {
+     return res.status(400).send(error.message);
+  }
 }
 
 
 // api get token 
 const getAuthentication = async(req, res) => {
-   const {email, password} = req.body;
-   const userData = await checkUser(email, password, 'ALL');   
-   try{
+  try{
+     const value = await signInValidation.validateAsync(req.body);
+     const {email, password} = value; 
+     const userData = await checkUser(email, password, 'ALL');   
      if(userData){ 
         let {_id, name, email} = userData;
         const token = await helper.tokenGenerate({_id, name, email});
