@@ -48,11 +48,11 @@ router.get('/', (req, res) => {
 apiRoutes.post('/login',verifyDataForGenerateToken, getAuthentication);
 
 apiRoutes.get('/contacts', verifyToken, getAllContacts);
-apiRoutes.get('/contact-find-by-id/:id', getContactById);
-apiRoutes.get('/contact-find-by-name/:name', getContactByName);
-apiRoutes.post('/contact-add', addContact);
-apiRoutes.patch('/contact-update/:id', updateContact);
-apiRoutes.delete('/contact-delete/:id', deleteContact);
+apiRoutes.get('/contact-find-by-id/:id',verifyToken, getContactById);
+apiRoutes.get('/contact-find-by-name/:name',verifyToken, getContactByName);
+apiRoutes.post('/contact-add',verifyToken, addContact);
+apiRoutes.patch('/contact-update/:id',verifyToken, updateContact);
+apiRoutes.delete('/contact-delete/:id',verifyToken, deleteContact);
 
  module.exports = { router, apiRoutes };
 

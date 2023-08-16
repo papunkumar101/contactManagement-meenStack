@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 require('ejs');
 const swaggerUi = require('swagger-ui-express');
-const swaggerDocument = require('./app/swagger/swagger-route.json');
+const swaggerDocument = require('./app/swagger/swagger-route');
 require('dotenv').config();
 const config = process.env;
 const app = express();
@@ -21,7 +21,7 @@ app.listen(config.PORT,()=>{
 });
 
 
-app.use(express.static(__dirname + '/public')); 
+app.use(express.static(__dirname + '/public'));   
 app.use(session({
     secret: 'keyboard cat',
     resave: false,
