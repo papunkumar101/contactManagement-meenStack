@@ -1,4 +1,5 @@
-{
+const securityObject = [{authenticate: [],},];
+module.exports = {
     "swagger": "2.0",
     "info": {
         "description": "This is the list of all contact managemnet apis",
@@ -15,6 +16,14 @@
     "schemes": ["http","https"],
     "host": "localhost:1010",
     "basePath": "/api/v1",
+    "securityDefinitions": {
+        authenticate: {
+            type: "apiKey",
+            in: "header",
+            name: "authorization",
+            description: "Please provide the valid access token, if you dont have please login and get the token as response!"
+        },
+    },
     "paths" : {
         "/contacts" : {
             "get" : {
@@ -23,6 +32,7 @@
                 "description": "Get all the contacts - contact management",
                 "produces": ["application/json"],
                 "parameters": [],
+                "security" : securityObject,
                 "responses": {
                     "200": {
                         "description": "successful operation",
@@ -57,6 +67,7 @@
                         "type": "string"
                     }
                 ],
+                "security" : securityObject,
                 "responses": {
                     "200": {
                         "description": "successful operation",
@@ -91,6 +102,7 @@
                         "type": "string"
                     }
                 ],
+                "security" : securityObject,
                 "responses": {
                     "200": {
                         "description": "successful operation",
@@ -129,6 +141,7 @@
                         }
                     }
                 ],
+                "security" : securityObject,
                 "responses": {
                     "200": {
                         "description": "successful operation",
@@ -173,6 +186,7 @@
                         }
                     }
                 ],
+                "security" : securityObject,
                 "responses": {
                     "200": {
                         "description": "successful operation",
@@ -207,6 +221,7 @@
                         "type": "string"
                     }
                 ],
+                "security" : securityObject,
                 "responses": {
                     "200": {
                         "description": "successful operation",

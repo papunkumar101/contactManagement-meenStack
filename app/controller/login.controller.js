@@ -3,6 +3,7 @@
 const Users = require('../model/register.model');
 const bcrypt = require('bcrypt');
 const helper =  require('../helper/general.helper');
+const {logger} =  require('../helper/log.helper');
 const {signUpValidation, signInValidation} =  require('../helper/validation.helper');
 
 
@@ -28,6 +29,7 @@ const loginUser = async(req, res) =>{
     const value = await signInValidation.validateAsync(req.body);
     const { email, password } = value;
     const userData = await checkUser(email, password, 'ALL');
+    logger.info({"activity": "user login","user":userData._id+", "+userData.name+", "+userData.email });
     if(userData){
       req.session.user = userData;
       return res.redirect('/dashboard');
@@ -59,6 +61,7 @@ const getAuthentication = async(req, res) => {
 }
 
 const userLogout = (req, res) => {
+  // logger.info({"activity": "user logout","user":userData._id+", "+userData.name+", "+userData.email });
   req.session.destroy();
   res.redirect('/login');
 }
