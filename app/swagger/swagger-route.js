@@ -241,6 +241,68 @@ module.exports = {
                 }
             }
         },
+        "/contact/search" : {
+            "get" : {
+                "tags": ["Contact management"],
+                "summary" : "Search the contact",
+                "description": "Search the contact",
+                "produces": ["application/json"],
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "search contact by name", 
+                        "type": "string"
+                    },
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": "Skip first n records", 
+                        "type": "number"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Select first n records", 
+                        "type": "number"
+                    },
+                    {
+                        "name": "sort_by",
+                        "in": "query",
+                        "description": "Sort coloumn name", 
+                        "type": "string",
+                        "schema": { type: 'string', example: 'name', default: 'name' }, 
+                        "enum": ['name'],
+                    },
+                    {
+                        "name": "sort_order",
+                        "in": "query",
+                        "description": "ASC-Ascending || DESC-Descending", 
+                        "type": "string",
+                        "schema": { type: 'string', example: 'DESC', default: 'ASC' }, 
+                        "enum": ['ASC', 'DESC'],
+                    }
+                ],
+                "security" : securityObject,
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/contactsResponse"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value",
+                        "schema": {
+                            "$ref": "#/definitions/InvalidResponse"
+                        }
+                    }
+                }
+            }
+        },
         "/login" : {
             "post" : {
                 "tags": ["User Auth"],

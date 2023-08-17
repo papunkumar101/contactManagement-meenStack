@@ -60,8 +60,8 @@ const getAuthentication = async(req, res) => {
    }
 }
 
-const userLogout = (req, res) => {
-  // logger.info({"activity": "user logout","user":userData._id+", "+userData.name+", "+userData.email });
+const userLogout = (req, res) => { 
+  logger.info({"activity": "user logout","user":req.session.user._id+", "+req.session.user.name+", "+req.session.user.email });
   req.session.destroy();
   res.redirect('/login');
 }

@@ -1,6 +1,7 @@
 const asyncHandler = require('express-async-handler');
 const abc = require('../model/contact.model'); 
 require('ejs');
+const url = require('url');
 
 const createContact = asyncHandler(async (req, res) => { 
         const { name, email, phone } = req.body;
@@ -102,4 +103,19 @@ const createContact = asyncHandler(async (req, res) => {
    }
   }
 
-  module.exports = { createContact, getAllContacts, getContactById, getContactByName, addContact, updateContact, deleteContact };
+  const getAllContactsBySearch = async(req, res) => { 
+    const {name, skip, limit, sort_by, sort_order} = req.query;
+    let ascDesc = sort_order == 'DESC' ? -1 : 1;
+    let dbRes = '';
+    // console.log(name, skip, limit, sort_by, sort_order);
+    if(name !== null && name !== undefined && skip !== null && skip !== undefined && limit !== null && limit !== undefined){ 
+      dbRes = await abc.find({name: {$regex: '.*' + name + '.*', $options: 'i'}}).limit(limit).sort({ sort_by : ascDesc }).select().exec();
+    }else if(name !== null && name !== undefined){ 
+      dbRes = await abc.find({name: {$regex: '.*' + name + '.*', $options: 'i'}}).limit(limit).sort({ sort_by : ascDesc }).select().exec();
+    }else{ 
+      dbRes = await abc.find({});
+    }
+    return res.status(200).json(dbRes);
+  }
+
+  module.exports = { createContact, getAllContacts, getContactById, getContactByName, addContact, updateContact, deleteContact, getAllContactsBySearch };
