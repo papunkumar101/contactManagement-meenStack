@@ -9,6 +9,11 @@
             "date": 1692191797610,
             "name": "resources\\logs\\responselogs\\project16-08-2023.log",
             "hash": "98cc1c2efb8dc29bee4a33c38689e1ff07d88a6bd874b823a29c554b35010147"
+        },
+        {
+            "date": 1692267111291,
+            "name": "resources\\logs\\responselogs\\project17-08-2023.log",
+            "hash": "59a7d8387a5d3cf2e5991797a833e1f98872d628d4f1a7d59e154c92e4d47805"
         }
     ],
     "hashType": "sha256"
