@@ -1,23 +1,41 @@
-const asyncHandler = require('express-async-handler');
+// const asyncHandler = require('express-async-handler');
 const abc = require('../model/contact.model'); 
-require('ejs');
-const url = require('url');
+require('ejs'); 
 
-const createContact = asyncHandler(async (req, res) => { 
-        const { name, email, phone } = req.body;
-        if (!name || !email || !phone) {
-           res.status(400);
-          throw new Error("All fields are mandatory !");
-        }
-        const contact = await abc.create({
-          name,
-          email,
-          phone
-        });
-        // const contact = await dbConn.collection("contact").insertOne({ name, email, phone });
+// const createContact = asyncHandler(async (req, res) => { 
+//         const { name, email, phone } = req.body;
+//         if (!name || !email || !phone) {
+//            res.status(400);
+//           throw new Error("All fields are mandatory !");
+//         }
+//         const contact = await abc.create({
+//           name,
+//           email,
+//           phone
+//         });
+//         // const contact = await dbConn.collection("contact").insertOne({ name, email, phone });
        
-     return  res.status(201).render('confirmation',{contact:contact});
-  });
+//      return  res.status(201).render('confirmation',{contact:contact});
+//   });
+const createContact = async(req, res) => { 
+  const { name, email, phone } = req.body;
+  let contact = '';
+  if (!name || !email || !phone) {
+     res.status(400).send('All fields are mandatory !'); 
+  }
+
+  try {
+    contact = await abc.create({
+      name,
+      email,
+      phone
+    }); 
+  } catch (error) {
+    return res.status(200).send(error.message);
+  }
+ 
+return  res.status(201).render('confirmation',{contact:contact});
+};
 
 
 
