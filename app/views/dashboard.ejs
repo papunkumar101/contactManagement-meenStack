@@ -1,10 +1,39 @@
 <%- include('includes/_header')%>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
 
 <div class="container body-start">
     <h1>Dashboard</h1>  
     <p>Welcome <strong><%= userData.name %></strong></p>
     <p>email id : <strong><%= userData.email %></strong></p>
     <a href="/logout">Logout</a>
+    
+    
+    <div class="row mt-5">
+        <div class="col-1"></div>
+        <div class="col-8 border p-2 shadow">
+            <table id="tableID" class="">
+                <thead class="">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email ID</th>
+                        <th scope="col">Phone</th>
+                    </tr>
+                </thead>
+                <tbody id="contactDataTBody">
+                    
+                </tbody>
+            </table> 
+        </div>
+        <div class="col-1"></div>
+    </div>
+    
 </div>
 
+
+<script src="/js/dashboardJS.js"></script>
 <%- include('includes/_footer')%>

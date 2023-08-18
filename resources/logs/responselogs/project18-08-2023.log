@@ -1,0 +1,407 @@
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-18T05:29:45.530Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-18T06:30:03.479Z'
+}
+{
+  error: CastError: Cast to Number failed for value "${limit}" (type string) at path "limit"
+      at model.Query.limit (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:872:13)
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:112:83)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3) {
+    stringValue: '"${limit}"',
+    messageFormat: undefined,
+    kind: 'Number',
+    value: '${limit}',
+    path: 'limit',
+    reason: undefined,
+    valueType: 'string'
+  },
+  level: 'error',
+  message: 'uncaughtException: Cast to Number failed for value "${limit}" (type string) at path "limit"\n' +
+    'CastError: Cast to Number failed for value "${limit}" (type string) at path "limit"\n' +
+    '    at model.Query.limit (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:872:13)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:112:83)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  stack: 'CastError: Cast to Number failed for value "${limit}" (type string) at path "limit"\n' +
+    '    at model.Query.limit (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:872:13)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:112:83)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  exception: true,
+  date: 'Fri Aug 18 2023 12:50:40 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8480,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 69738496,
+      heapTotal: 32714752,
+      heapUsed: 30762840,
+      external: 19735131,
+      arrayBuffers: 18315865
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 95582.765 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.limit',
+      line: 872,
+      method: 'limit',
+      native: false
+    },
+    {
+      column: 83,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 112,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-18T07:20:40.965Z'
+}
+{
+  error: CastError: Cast to Number failed for value "${limit}" (type string) at path "limit"
+      at model.Query.limit (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:872:13)
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:112:83)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3) {
+    stringValue: '"${limit}"',
+    messageFormat: undefined,
+    kind: 'Number',
+    value: '${limit}',
+    path: 'limit',
+    reason: undefined,
+    valueType: 'string'
+  },
+  level: 'error',
+  message: 'uncaughtException: Cast to Number failed for value "${limit}" (type string) at path "limit"\n' +
+    'CastError: Cast to Number failed for value "${limit}" (type string) at path "limit"\n' +
+    '    at model.Query.limit (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:872:13)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:112:83)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  stack: 'CastError: Cast to Number failed for value "${limit}" (type string) at path "limit"\n' +
+    '    at model.Query.limit (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:872:13)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:112:83)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  exception: true,
+  date: 'Fri Aug 18 2023 12:51:38 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8480,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 69767168,
+      heapTotal: 33239040,
+      heapUsed: 30649576,
+      external: 19738130,
+      arrayBuffers: 18318824
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 95640.031 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.limit',
+      line: 872,
+      method: 'limit',
+      native: false
+    },
+    {
+      column: 83,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 112,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-18T07:21:38.217Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-18T10:52:07.032Z'
+}
+{
+  error: ReferenceError: contact is not defined
+      at createContact (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:37:56)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: 'uncaughtException: contact is not defined\n' +
+    'ReferenceError: contact is not defined\n' +
+    '    at createContact (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:37:56)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'ReferenceError: contact is not defined\n' +
+    '    at createContact (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:37:56)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Fri Aug 18 2023 16:22:52 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16572,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 49065984,
+      heapTotal: 32714752,
+      heapUsed: 30425464,
+      external: 19267500,
+      arrayBuffers: 18311947
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 108313.968 },
+  trace: [
+    {
+      column: 56,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'createContact',
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-18T10:52:52.166Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-18T10:58:26.715Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-18T12:23:55.622Z'
+}
+{
+  message: { activity: 'user login', user: 'undefined, undefined, undefined' },
+  level: 'info',
+  timestamp: '2023-08-18T12:57:23.432Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-18T12:57:36.433Z'
+}
