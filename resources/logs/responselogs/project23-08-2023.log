@@ -1,0 +1,1802 @@
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T09:50:09.798Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T09:51:48.206Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:01:54.243Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:05:28.219Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:06:35.739Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:08:00.506Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:09:37.102Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:10:13.558Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:11:49.349Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:14:07.069Z'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:127:10)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:127:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:127:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Wed Aug 23 2023 15:44:07 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13444,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 85143552,
+      heapTotal: 63385600,
+      heapUsed: 29711848,
+      external: 19349037,
+      arrayBuffers: 18393484
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 537990.359 },
+  trace: [
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 127,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-08-23T10:14:07.534Z'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:127:10)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:127:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:127:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Wed Aug 23 2023 15:45:02 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14516,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 84672512,
+      heapTotal: 62861312,
+      heapUsed: 27165712,
+      external: 19245261,
+      arrayBuffers: 18289708
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 538045.375 },
+  trace: [
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 127,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-08-23T10:15:02.546Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:15:12.130Z'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:127:10)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:127:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:127:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Wed Aug 23 2023 15:45:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14516,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67592192,
+      heapTotal: 30879744,
+      heapUsed: 28043520,
+      external: 19338127,
+      arrayBuffers: 18295267
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 538055.328 },
+  trace: [
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 127,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-08-23T10:15:12.500Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:16:56.084Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:18:13.785Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:22:15.825Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:27:16.660Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:36:11.654Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:37:49.927Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T10:54:18.196Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:28:00.809Z'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:131:45)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:131:45)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:131:45)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Wed Aug 23 2023 16:58:01 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8964,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67231744,
+      heapTotal: 30617600,
+      heapUsed: 27814320,
+      external: 19253296,
+      arrayBuffers: 18297743
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 542423.984 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 131,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-08-23T11:28:01.154Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:29:21.276Z'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:131:45)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:131:45)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:131:45)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Wed Aug 23 2023 16:59:21 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 128,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 85532672,
+      heapTotal: 63647744,
+      heapUsed: 29650696,
+      external: 19349037,
+      arrayBuffers: 18393484
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 542504.406 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 131,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-08-23T11:29:21.573Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:29:56.971Z'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:131:45)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:131:45)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:131:45)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Wed Aug 23 2023 16:59:57 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9628,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 85065728,
+      heapTotal: 63385600,
+      heapUsed: 29453744,
+      external: 19349021,
+      arrayBuffers: 18393468
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 542540.14 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 131,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-08-23T11:29:57.317Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:31:01.382Z'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:132:45)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:132:45)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:132:45)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Wed Aug 23 2023 17:01:01 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12252,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 85078016,
+      heapTotal: 63647744,
+      heapUsed: 29878016,
+      external: 19349037,
+      arrayBuffers: 18393484
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 542604.671 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 132,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-08-23T11:31:01.848Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:31:44.115Z'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:132:45)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:132:45)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:132:45)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Wed Aug 23 2023 17:01:44 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9360,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 85745664,
+      heapTotal: 63647744,
+      heapUsed: 29434576,
+      external: 19349037,
+      arrayBuffers: 18393484
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 542647.25 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 132,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-08-23T11:31:44.429Z'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:132:40)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:132:40)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:132:40)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Wed Aug 23 2023 17:02:11 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5836,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 84897792,
+      heapTotal: 63385600,
+      heapUsed: 27179720,
+      external: 19245261,
+      arrayBuffers: 18289708
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 542674.781 },
+  trace: [
+    {
+      column: 40,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 132,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-08-23T11:32:11.957Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:32:26.913Z'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:132:40)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:132:40)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:132:40)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Wed Aug 23 2023 17:02:27 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 17084,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 85594112,
+      heapTotal: 63647744,
+      heapUsed: 29451528,
+      external: 19349037,
+      arrayBuffers: 18393484
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 542689.953 },
+  trace: [
+    {
+      column: 40,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 132,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-08-23T11:32:27.132Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:33:43.439Z'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:132:40)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:132:40)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:132:40)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Wed Aug 23 2023 17:03:43 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 17588,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 86085632,
+      heapTotal: 63385600,
+      heapUsed: 29498320,
+      external: 19349037,
+      arrayBuffers: 18393484
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 542766.468 },
+  trace: [
+    {
+      column: 40,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 132,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-08-23T11:33:43.649Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:35:25.656Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:36:27.080Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:38:12.629Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:39:10.892Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-23T11:39:44.202Z'
+}

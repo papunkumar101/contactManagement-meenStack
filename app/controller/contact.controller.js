@@ -122,18 +122,31 @@ return  res.status(201).render('confirmation',{contact:contact});
   }
 
   const getAllContactsBySearch = async(req, res) => { 
-    const {name, skip, limit, sort_by, sort_order} = req.query;
+    let {name, skip, limit, sort_by, sort_order} = req.query; 
+    let searchText = name.trim(); 
     let ascDesc = sort_order == 'DESC' ? -1 : 1;
-    let dbRes = '';
-    // console.log(name, skip, limit, sort_by, sort_order);
-    if(name !== null && name !== undefined && skip !== null && skip !== undefined && limit !== null && limit !== undefined){ 
-      dbRes = await abc.find({name: {$regex: '.*' + name + '.*', $options: 'i'}}).limit(limit).sort({ sort_by : ascDesc }).select().exec();
-    }else if(name !== null && name !== undefined){ 
-      dbRes = await abc.find({name: {$regex: '.*' + name + '.*', $options: 'i'}}).limit(limit).sort({ sort_by : ascDesc }).select().exec();
-    }else{ 
-      dbRes = await abc.find({});
-    }
-    return res.status(200).json(dbRes);
+    let dbRes = ''; 
+    let query = ''; 
+    let count = 0;  
+    if(skip == 0 && limit == 10) skip,limit = null; //remove this line
+    try {
+      if(searchText && searchText !== ''){    
+        query = abc.find({searchText: {$regex: '.*' + searchText + '.*', $options: 'i'}}).sort({ sort_by : ascDesc }).select();
+        dbRes = await query.exec();
+        count = dbRes.length;
+      }else if(skip && limit){   
+        query = abc.find({}).limit(limit).skip(skip).sort({ sort_by : ascDesc }).select();
+        dbRes = await query.exec();
+        count = await abc.countDocuments(); // to get all the row of db
+        // count = await abc.countDocuments(query); // get the total row of query res or you can use length also
+      }else{   
+        dbRes = await abc.find({});
+        count = dbRes.length;
+      } 
+      return res.status(200).json({'apiRes':dbRes, 'statusCode': 200, 'totalCount':count});
+    } catch (error) {
+      return res.status(400).json(error.message);
+    } 
   }
 
   module.exports = { createContact, getAllContacts, getContactById, getContactByName, addContact, updateContact, deleteContact, getAllContactsBySearch };

@@ -283,7 +283,7 @@ module.exports = {
                         "enum": ['ASC', 'DESC'],
                     }
                 ],
-                "security" : securityObject,
+                // "security" : securityObject,
                 "responses": {
                     "200": {
                         "description": "successful operation",

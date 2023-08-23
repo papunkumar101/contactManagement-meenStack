@@ -1,0 +1,237 @@
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:02:30.528Z'
+}
+{
+  message: { activity: 'user login', user: 'undefined, undefined, undefined' },
+  level: 'info',
+  timestamp: '2023-08-21T11:17:20.292Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:17:32.137Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:18:16.593Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:20:38.676Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:22:01.825Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:24:57.662Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:25:42.731Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:26:33.642Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:29:43.414Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:31:23.762Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:38:02.867Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:41:24.676Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:42:11.638Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:43:35.248Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T11:44:31.828Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T12:18:09.989Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T12:22:13.173Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T12:23:27.671Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T12:53:38.946Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T12:54:24.788Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T12:55:33.442Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T13:01:59.149Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T13:04:47.836Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T13:05:49.462Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T13:06:26.293Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T13:07:27.870Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T13:17:12.434Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T13:17:56.074Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-21T13:18:25.513Z'
+}

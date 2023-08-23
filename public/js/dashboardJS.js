@@ -1,26 +1,44 @@
-// let table = new DataTable('#tableID'); 
-let currentPage = 1;
+// let currentPage = 1; 
+// let rowsPerPage = 10;
 
-function goToPage(pageNumber) {
-    // Update current page
-    currentPage = pageNumber;
+function resetDataTable() {
 
-    // Update DataTable with new page data
-    contactData();
+    let table = new DataTable('#tableID');
+
+//     function goToPage() { 
+//         var start = (currentPage - 1) * rowsPerPage;
+//         var end = start + rowsPerPage;
+        
+//         table.page.len(rowsPerPage).draw();
+//         table.page(start / rowsPerPage).draw(false);
+        
+//         // $('#currentPage').text(currentPage);
+//         console.log(currentPage);
+//         contactData(currentPage);
+//     } 
+
+//     $('#tableID_previous').click(function() { 
+//         if (currentPage > 1) {
+//             currentPage--;
+//             goToPage();
+//           } 
+//     });
+
+//     $('#tableID_next').click(function() { 
+//         if (currentPage < Math.ceil(table.rows().count() / rowsPerPage)) {
+//             currentPage++;
+//             goToPage();
+//           }
+//     });
+
+//     table.on('length.dt', function(e, settings, len) {
+//         // Your code to handle the dropdown change event
+//         console.log('Number of entries per page changed to:', len);
+//       }); 
 }
-$('#tableID_previous').on('click', '.prev', function() {
-    console.log('prev');
-if (currentPage > 1) {
-    goToPage(currentPage - 1);
-    }
-});
-
-$('#tableID_next').on('click', '.next', function() {
-    goToPage(currentPage + 1);
-});
 
 
-let limit = 12;
+let limit = 10;
 let skip = 0;
 let searchText = '';
 let sortBy = '';
@@ -35,7 +53,7 @@ $('#tableID_filter input').on('input', function () {
     contactData();
 });
 
-let contactData = () => {
+let contactData = (skip = 0) => {
 // let limit = isset($request->SHOW_ENTRIES) ? '&limit=' . $request->input('SHOW_ENTRIES') : '&limit=10';  
 
     $.ajax({
@@ -50,7 +68,7 @@ let contactData = () => {
         success : function(res){ 
             let dynamicData = appendInContactDataTBody(res);
             $('#contactDataTBody').html(dynamicData);
-            new DataTable('#tableID')
+           resetDataTable();
         }
 
     });
@@ -58,8 +76,8 @@ let contactData = () => {
 
 let appendInContactDataTBody = (res) => { 
     let html = '';
-
-    res.map(function (value, index) { 
+ 
+    res.apiRes.map(function (value, index) { 
     index ++;
     html += '<tr><th scope="row">' + index + '</th>';
     html += '<td>' + value.name + '</td>';
