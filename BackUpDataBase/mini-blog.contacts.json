@@ -1,0 +1,204 @@
+[{
+  "_id": {
+    "$oid": "64d1e9027bf16c6f42fb9127"
+  },
+  "name": "Md Azad4",
+  "email": "test@gmail.com",
+  "phone": {
+    "$numberLong": "9876543210"
+  },
+  "createdAt": {
+    "$date": "2023-08-08T07:04:34.836Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-11T12:52:02.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d604c621203ee764860744"
+  },
+  "name": "papun",
+  "email": "papun@gmail.com",
+  "phone": {
+    "$numberLong": "9876547011"
+  },
+  "createdAt": {
+    "$date": "2023-08-11T09:52:06.408Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-11T09:52:06.408Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d604f321203ee764860748"
+  },
+  "name": "papun",
+  "email": "papun1@gmail.com",
+  "phone": {
+    "$numberLong": "9876547011"
+  },
+  "createdAt": {
+    "$date": "2023-08-11T09:52:51.070Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-11T09:52:51.070Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d612fadfdccdca844ca007"
+  },
+  "name": "ani",
+  "email": "ani@gmail.com",
+  "phone": {
+    "$numberLong": "7876543210"
+  },
+  "createdAt": {
+    "$date": "2023-08-11T10:52:42.926Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-11T10:52:42.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64df4d84a6fe0d3b533ecf5b"
+  },
+  "name": "anirban",
+  "email": "anirban@gmail.com",
+  "phone": {
+    "$numberLong": "53647363646"
+  },
+  "createdAt": {
+    "$date": "2023-08-18T10:52:52.145Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-18T10:52:52.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64df4e26f165ea80aceca0e6"
+  },
+  "name": "rahul",
+  "email": "rahul836@gmail.com",
+  "phone": {
+    "$numberLong": "9738778628"
+  },
+  "createdAt": {
+    "$date": "2023-08-18T10:55:34.760Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-18T10:55:34.760Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64df4e3af165ea80aceca0e8"
+  },
+  "name": "hari",
+  "email": "hari@gmail.com",
+  "phone": {
+    "$numberLong": "87950378634"
+  },
+  "createdAt": {
+    "$date": "2023-08-18T10:55:54.896Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-18T10:55:54.896Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64df4e4ef165ea80aceca0ea"
+  },
+  "name": "ram",
+  "email": "ram@gmail.com",
+  "phone": {
+    "$numberLong": "9748568736"
+  },
+  "createdAt": {
+    "$date": "2023-08-18T10:56:14.022Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-18T10:56:14.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64df4e63f165ea80aceca0ec"
+  },
+  "name": "susant",
+  "email": "susant@gmail.com",
+  "phone": {
+    "$numberLong": "67846364556"
+  },
+  "createdAt": {
+    "$date": "2023-08-18T10:56:35.999Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-18T10:56:35.999Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64df4e83f165ea80aceca0ee"
+  },
+  "name": "anirban",
+  "email": "anirbanmahkul@gmail.com",
+  "phone": {
+    "$numberLong": "89743957398"
+  },
+  "createdAt": {
+    "$date": "2023-08-18T10:57:07.180Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-18T10:57:07.180Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64df4ea1f165ea80aceca0f0"
+  },
+  "name": "syam",
+  "email": "syam@gmail.com",
+  "phone": {
+    "$numberLong": "9078762734"
+  },
+  "createdAt": {
+    "$date": "2023-08-18T10:57:37.811Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-18T10:57:37.811Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64df4eb7f165ea80aceca0f2"
+  },
+  "name": "ajeetha ",
+  "email": "ajeetha@mail.com",
+  "phone": {
+    "$numberLong": "89674635364"
+  },
+  "createdAt": {
+    "$date": "2023-08-18T10:57:59.026Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-18T10:57:59.026Z"
+  },
+  "__v": 0
+}]

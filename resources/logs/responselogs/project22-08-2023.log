@@ -1,0 +1,1289 @@
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T08:19:21.923Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T08:25:55.055Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T08:27:17.748Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T08:28:32.097Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T08:30:25.354Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T09:53:58.784Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T11:04:24.246Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T11:06:18.603Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T11:09:14.443Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T11:12:00.235Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T11:13:39.581Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T11:19:40.826Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T11:38:54.147Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T11:39:52.638Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T11:42:02.288Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T11:43:09.778Z'
+}
+{
+  message: {
+    activity: 'user login',
+    user: '64d9e3ac696b0fbb2a852cd2, test, test@gmail.com'
+  },
+  level: 'info',
+  timestamp: '2023-08-22T11:44:49.049Z'
+}
+{
+  error: MongooseError: Query.prototype.exec() no longer accepts a callback
+      at model.Query.exec (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:4370:11)
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:142:10)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3),
+  level: 'error',
+  message: 'uncaughtException: Query.prototype.exec() no longer accepts a callback\n' +
+    'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:142:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  stack: 'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:142:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  exception: true,
+  date: 'Tue Aug 22 2023 17:30:15 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 18468,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 84025344,
+      heapTotal: 63385600,
+      heapUsed: 27096792,
+      external: 19244635,
+      arrayBuffers: 18289082
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 457958.468 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.exec',
+      line: 4370,
+      method: 'exec',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 142,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-22T12:00:15.645Z'
+}
+{
+  error: MongooseError: Query.prototype.exec() no longer accepts a callback
+      at model.Query.exec (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:4370:11)
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:142:10)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3),
+  level: 'error',
+  message: 'uncaughtException: Query.prototype.exec() no longer accepts a callback\n' +
+    'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:142:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  stack: 'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:142:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  exception: true,
+  date: 'Tue Aug 22 2023 17:31:01 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7336,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 84168704,
+      heapTotal: 63123456,
+      heapUsed: 27448704,
+      external: 19245386,
+      arrayBuffers: 18289833
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 458004.671 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.exec',
+      line: 4370,
+      method: 'exec',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 142,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-22T12:01:01.853Z'
+}
+{
+  error: MongooseError: Query.prototype.exec() no longer accepts a callback
+      at model.Query.exec (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:4370:11)
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:142:10)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3),
+  level: 'error',
+  message: 'uncaughtException: Query.prototype.exec() no longer accepts a callback\n' +
+    'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:142:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  stack: 'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:142:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  exception: true,
+  date: 'Tue Aug 22 2023 17:33:57 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8768,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 65974272,
+      heapTotal: 30355456,
+      heapUsed: 27130392,
+      external: 19243572,
+      arrayBuffers: 18288019
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 458180.578 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.exec',
+      line: 4370,
+      method: 'exec',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 142,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-22T12:03:57.749Z'
+}
+{
+  error: MongooseError: Query.prototype.exec() no longer accepts a callback
+      at model.Query.exec (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:4370:11)
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:142:10)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3),
+  level: 'error',
+  message: 'uncaughtException: Query.prototype.exec() no longer accepts a callback\n' +
+    'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:142:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  stack: 'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:142:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  exception: true,
+  date: 'Tue Aug 22 2023 17:35:20 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16732,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 84361216,
+      heapTotal: 63385600,
+      heapUsed: 27381352,
+      external: 19245386,
+      arrayBuffers: 18289833
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 458262.843 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.exec',
+      line: 4370,
+      method: 'exec',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 142,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-22T12:05:20.031Z'
+}
+{
+  error: MongooseError: Query.prototype.exec() no longer accepts a callback
+      at model.Query.exec (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:4370:11)
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:141:10)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3),
+  level: 'error',
+  message: 'uncaughtException: Query.prototype.exec() no longer accepts a callback\n' +
+    'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:141:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  stack: 'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:141:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  exception: true,
+  date: 'Tue Aug 22 2023 18:19:31 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16556,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 85151744,
+      heapTotal: 63385600,
+      heapUsed: 28826928,
+      external: 19270967,
+      arrayBuffers: 18315414
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 460913.89 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.exec',
+      line: 4370,
+      method: 'exec',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-22T12:49:31.065Z'
+}
+{
+  error: MongoServerError: FieldPath field names may not start with '$'. Consider using $getField or $setField.
+      at Connection.onMessage (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongodb\lib\cmap\connection.js:202:26)
+      at MessageStream.<anonymous> (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongodb\lib\cmap\connection.js:61:60)
+      at MessageStream.emit (node:events:513:28)
+      at processIncomingData (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongodb\lib\cmap\message_stream.js:124:16)
+      at MessageStream._write (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:392:12)
+      at _write (node:internal/streams/writable:333:10)
+      at Writable.write (node:internal/streams/writable:337:10)
+      at Socket.ondata (node:internal/streams/readable:766:22)
+      at Socket.emit (node:events:513:28) {
+    ok: 0,
+    code: 16410,
+    codeName: 'Location16410',
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  level: 'error',
+  message: "uncaughtException: FieldPath field names may not start with '$'. Consider using $getField or $setField.\n" +
+    "MongoServerError: FieldPath field names may not start with '$'. Consider using $getField or $setField.\n" +
+    '    at Connection.onMessage (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\connection.js:202:26)\n' +
+    '    at MessageStream.<anonymous> (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\connection.js:61:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:124:16)\n' +
+    '    at MessageStream._write (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at Socket.emit (node:events:513:28)',
+  stack: "MongoServerError: FieldPath field names may not start with '$'. Consider using $getField or $setField.\n" +
+    '    at Connection.onMessage (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\connection.js:202:26)\n' +
+    '    at MessageStream.<anonymous> (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\connection.js:61:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:124:16)\n' +
+    '    at MessageStream._write (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at Socket.emit (node:events:513:28)',
+  exception: true,
+  date: 'Tue Aug 22 2023 18:20:55 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5996,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 84590592,
+      heapTotal: 63123456,
+      heapUsed: 27446008,
+      external: 19245669,
+      arrayBuffers: 18290116
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 460998.546 },
+  trace: [
+    {
+      column: 26,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: 'Connection.onMessage',
+      line: 202,
+      method: 'onMessage',
+      native: false
+    },
+    {
+      column: 60,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: null,
+      line: 61,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'MessageStream.emit',
+      line: 513,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'processIncomingData',
+      line: 124,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'MessageStream._write',
+      line: 33,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 392,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 333,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'Writable.write',
+      line: 337,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:internal/streams/readable',
+      function: 'Socket.ondata',
+      line: 766,
+      method: 'ondata',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Socket.emit',
+      line: 513,
+      method: 'emit',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-22T12:50:55.712Z'
+}
+{
+  error: MongooseError: Query.prototype.exec() no longer accepts a callback
+      at model.Query.exec (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:4370:11)
+      at getAllContactsBySearch (C:\PAPUN\NODE\contactManagement-meenStack\app\controller\contact.controller.js:130:93)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\layer.js:95:5)
+      at C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\express\lib\router\index.js:175:3),
+  level: 'error',
+  message: 'uncaughtException: Query.prototype.exec() no longer accepts a callback\n' +
+    'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:130:93)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  stack: 'MongooseError: Query.prototype.exec() no longer accepts a callback\n' +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4370:11)\n' +
+    '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:130:93)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  exception: true,
+  date: 'Tue Aug 22 2023 18:26:32 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12712,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 84697088,
+      heapTotal: 63385600,
+      heapUsed: 27304144,
+      external: 19245386,
+      arrayBuffers: 18289833
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 461335.39 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.exec',
+      line: 4370,
+      method: 'exec',
+      native: false
+    },
+    {
+      column: 93,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js',
+      function: 'getAllContactsBySearch',
+      line: 130,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-22T12:56:32.560Z'
+}
+{
+  error: MongooseError: Query was already executed: Contact.countDocuments({ name: { '$regex': '.*papun.*', '$op...
+      at model.Query.exec (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:4406:17)
+      at Query.then (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:4550:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    originalStack: 'Error\n' +
+      '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4410:28)\n' +
+      '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:134:27)\n' +
+      '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+      '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+      '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+      '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+      '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+      '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+      '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+      '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)'
+  },
+  level: 'error',
+  message: "uncaughtException: Query was already executed: Contact.countDocuments({ name: { '$regex': '.*papun.*', '$op...\n" +
+    "MongooseError: Query was already executed: Contact.countDocuments({ name: { '$regex': '.*papun.*', '$op...\n" +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4406:17)\n' +
+    '    at Query.then (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4550:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: "MongooseError: Query was already executed: Contact.countDocuments({ name: { '$regex': '.*papun.*', '$op...\n" +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4406:17)\n' +
+    '    at Query.then (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4550:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Tue Aug 22 2023 18:44:25 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 852,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 85090304,
+      heapTotal: 63385600,
+      heapUsed: 27615080,
+      external: 19245958,
+      arrayBuffers: 18290405
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 462408.296 },
+  trace: [
+    {
+      column: 17,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.exec',
+      line: 4406,
+      method: 'exec',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'Query.then',
+      line: 4550,
+      method: 'then',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-22T13:14:25.473Z'
+}
+{
+  error: MongooseError: Query was already executed: Contact.countDocuments({ name: { '$regex': '.*papun.*', '$op...
+      at model.Query.exec (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:4406:17)
+      at Query.then (C:\PAPUN\NODE\contactManagement-meenStack\node_modules\mongoose\lib\query.js:4550:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    originalStack: 'Error\n' +
+      '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4410:28)\n' +
+      '    at getAllContactsBySearch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\app\\controller\\contact.controller.js:134:27)\n' +
+      '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+      '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+      '    at Route.dispatch (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+      '    at Layer.handle [as handle_request] (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+      '    at C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+      '    at Function.process_params (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+      '    at next (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+      '    at Function.handle (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\express\\lib\\router\\index.js:175:3)'
+  },
+  level: 'error',
+  message: "uncaughtException: Query was already executed: Contact.countDocuments({ name: { '$regex': '.*papun.*', '$op...\n" +
+    "MongooseError: Query was already executed: Contact.countDocuments({ name: { '$regex': '.*papun.*', '$op...\n" +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4406:17)\n' +
+    '    at Query.then (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4550:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: "MongooseError: Query was already executed: Contact.countDocuments({ name: { '$regex': '.*papun.*', '$op...\n" +
+    '    at model.Query.exec (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4406:17)\n' +
+    '    at Query.then (C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js:4550:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Tue Aug 22 2023 18:45:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 852,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\PAPUN\\NODE\\contactManagement-meenStack',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\PAPUN\\NODE\\contactManagement-meenStack\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67375104,
+      heapTotal: 30879744,
+      heapUsed: 28008136,
+      external: 19268555,
+      arrayBuffers: 18312962
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 462455.062 },
+  trace: [
+    {
+      column: 17,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.exec',
+      line: 4406,
+      method: 'exec',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\PAPUN\\NODE\\contactManagement-meenStack\\node_modules\\mongoose\\lib\\query.js',
+      function: 'Query.then',
+      line: 4550,
+      method: 'then',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2023-08-22T13:15:12.236Z'
+}
