@@ -7,11 +7,12 @@
 
 1. [ejs](#https://www.npmjs.com/package/ejs)
    - EJS(Embedded JavaScript) is a templates engine. which is help to design and display the content on the browser.
-3. [abc](#https://www.google.com) - abcd
-4. [Installation]
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
+3. [abc](#https://www.google.com)
+   - abcd
+5. [Installation]
+6. [Usage](#usage)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ## Introduction
 
