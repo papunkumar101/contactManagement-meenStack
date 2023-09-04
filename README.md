@@ -6,8 +6,8 @@
 ## Used Concept or Covered Topic
 
 1. [ejs](#https://www.npmjs.com/package/ejs) - EJS(Embedded JavaScript) is a templates engine. which is help to design and display the content on the browser.
-2. [abc](#features) - 
-3. [Installation](#installation)
+2. [abc](#cda) - 
+3. [Installation]
 4. [Usage](#usage)
 5. [Contributing](#contributing)
 6. [License](#license)
