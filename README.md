@@ -1,14 +1,12 @@
-# contactManagement-meenStack
-The Contact Management website using  mongo, express, ejs and node
 
 # Contact Management
 
  Contact Management website using  mongo, express, ejs and node
 
-## Table of Contents
+## Used Concept or Covered Topic
 
-1. [Introduction](#introduction)
-2. [Features](#features)
+1. [ejs](#https://www.npmjs.com/package/ejs) - EJS(Embedded JavaScript) is a templates engine. which is help to design and display the content on the browser.
+2. [Features](#features) - 
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Contributing](#contributing)
@@ -16,21 +14,21 @@ The Contact Management website using  mongo, express, ejs and node
 
 ## Introduction
 
-Explain what your project is about. Why was it created, and what problem does it solve? Include any relevant context or background information.
+Welcome to our contact management application! This application has been meticulously crafted following the Model-View-Controller (MVC) design pattern to ensure code organization and readability. While this project serves as a practice exercise, it offers valuable functionality by allowing users to securely store and manage their contact information online.
 
 ## Features
 
-List the key features and functionalities of your project. You can use bullet points for this section:
+List the key features and functionalities:
 
-- Feature 1
-- Feature 2
-- ...
+- user can store the contact
+- after login user can access the bulk contact which is in database
+- can access REST API for CURD the contact
 
 ## Installation
 
-Provide instructions on how to install and set up your project. Include any prerequisites and step-by-step installation instructions. You can use code blocks for commands:
+Instructions to install and set up:
 
-```bash
-# Example installation commands
-npm install
-npm run setup
+### Stape1 : clone the repository by command : git clone https://github.com/papunkumar101/contactManagement-meenStack.git
+### Stape2 : install and update the used packages by command : npm install or npm i
+### Stape3 : run the project by command : npm start
+### stape4 : server will be run on port no 1010, so open the url : http://localhost:1010/
